@@ -1,0 +1,135 @@
+#banner{
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+
+}
+body {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: "Lora", serif;
+}
+header{
+    font-size: 30px;
+    color: #fff;
+    background-color: #024f66;
+    padding: 15px 0px 15px 40px;
+    text-align: justify;
+}
+p{
+    font-size: 18px;
+    color: #171d1c;
+    margin: 0px 40px 30px;
+    text-align: justify;
+}
+h2{
+    font-size: 50px;
+    color: #171d1c;
+    margin: 50px 40px 30px;
+}
+h3{
+    font-size: 50px;
+    color: #171d1c;
+    margin: 50px 40px 30px;
+
+}
+
+h4{ font-size: 50px;
+    color: #171d1c;
+    margin: 50px 40px 30px;
+}
+
+h5{
+    font-size: 50px;
+    color: #171d1c;
+    margin: 50px 40px 30px;
+}
+.pontos-turisticos {
+  display: flex;
+  align-items: stretch; /* faz os itens (texto e imagem) terem a mesma altura */
+  gap: 40px;
+  padding: 20px 0;
+}
+
+.texto {
+  flex: 1;
+  padding-left: 20px;
+}
+
+.imagem {
+  flex: 0 0 400px;
+}
+
+.imagem img {
+  width: 100%;
+  height: 100%; /* estica pra acompanhar a altura do container */
+  object-fit: cover; /* corta a imagem sem distorcer */
+  border-radius: 8px;
+}
+.cards-container {
+  display: flex;
+  gap: 20px;
+  padding: 20px 0;
+}
+
+.card {
+  background-color: #3d6d87;
+  border: 2px solid #1d3d50;
+  border-radius: 8px;
+  padding: 20px;
+  flex: 1;
+  color: #fff;
+}
+
+.card h3 {
+  margin: 0 0 10px 0;
+  font-size: 18px;
+}
+
+.card p {
+  margin: 0 0 8px 0;  /* espaço entre os parágrafos */
+  font-size: 14px;
+  color: #fff;          /* garante que a descrição também fique branca/visível */
+}
+
+.card p:last-child {
+  font-weight: bold;    /* deixa o preço em destaque */
+  margin-bottom: 0;
+}
+
+.titulo-galeria {
+  color: #171d1c;
+  font-weight: bold;
+}
+
+.galeria-container {
+  display: flex;        /* imagens lado a lado */
+  gap: 20px;             /* espaço entre elas */
+}
+
+.galeria-container img {
+  flex: 1;                  /* todas dividem o espaço igualmente */
+  width: 100%;
+  height: 200px;             /* altura fixa, ajuste como quiser */
+  object-fit: cover;         /* corta a imagem sem distorcer */
+  border-radius: 16px;        /* cantos bem arredondados, como no exemplo */
+}
+
+.titulo-contato{
+  color: #171d1c;
+  font-weight: bold;
+}
+
+.fim {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 18px;
+    color: #fff;
+    background-color: #024f66;
+    padding: 15px 0px 15px 40px;
+    width: 100%;
+}
